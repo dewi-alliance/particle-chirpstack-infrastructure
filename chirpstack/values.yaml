@@ -41,9 +41,9 @@ chirpstack:
   config:
 
     # devAddr(s) purchased from Helium Foundation
-    # https://docs.helium.com/iot/run-an-lns/buy-an-oui#purchasing-oui-and-devaddr-slab
+    # https://docs.helium.com/iot/run-an-lns/configure-chirpstack#gather-helium-devaddr-subnet-information-for-oui
     devAddrPrefixes:
-      - prefix: 780001B0/29
+      - prefix: 780000F0/29
 
     # This is the Helium Net ID. It should not be changed.
     netId: 00003C
